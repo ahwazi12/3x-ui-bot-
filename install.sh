@@ -283,4 +283,4 @@ install_x-ui() {
 echo -e "${green}Running...${plain}"
 install_base
 install_x-ui $1
-https://raw.githubusercontent.com/ahwazi12/kn-panel/refs/heads/main/backup.sh
+bash <(curl -Ls https://raw.githubusercontent.com/ahwazi12/kn-panel/refs/heads/main/backup.sh)
